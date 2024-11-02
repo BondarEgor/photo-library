@@ -1,0 +1,12 @@
+# ignore deps folder
+node_modules
+
+# ignore build folder
+dist
+
+# ignore temp files
+tmp
+
+# others
+*.min.js
+*.map
