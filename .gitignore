@@ -23,7 +23,6 @@ yarn-error.log
 # Visual Studio Code
 .vscode/*
 .history/*
-.husky
 
 # Miscellaneous
 /.angular/cache
