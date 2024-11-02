@@ -76,13 +76,8 @@
           "options": {
             "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "tsconfig.spec.json",
-            "inlineStyleLanguage": "scss",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
+            "inlineStyleLanguage": ["scss"],
+            "assets": ["public"],
             "styles": ["src/styles.scss"],
             "scripts": []
           }
