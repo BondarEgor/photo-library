@@ -19,7 +19,7 @@ describe('HeaderComponent', () => {
   });
 
   it('should return true for isActive when current URL matches', () => {
-    jest.spyOn(router, 'url', 'get').mockReturnValue('/');
+    jest.spyOn(router, 'url', 'get').mockReturnValue('');
     expect(component.isActive('')).toBe(true);
   });
 
