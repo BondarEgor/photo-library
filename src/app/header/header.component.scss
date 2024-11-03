@@ -1,0 +1,11 @@
+@import url('../../styles.scss');
+
+.header {
+  .header-mat-toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    background-color: bisque;
+  }
+}
