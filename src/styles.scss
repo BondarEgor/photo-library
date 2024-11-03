@@ -1,3 +1,4 @@
-:root {
-  --main-color: 'white';
-}
+@import url('./reset.scss');
+@import url('@angular/material/prebuilt-themes/indigo-pink.css');
+@import url('./variables/variables');
+@import url('./mixins/mixins.scss');

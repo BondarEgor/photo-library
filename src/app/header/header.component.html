@@ -1,0 +1,10 @@
+<header class="header">
+  <mat-toolbar class="header-mat-toolbar">
+    <app-nav-link
+      *ngFor="let link of LINKS"
+      [isActive]="isActive(link.route)"
+      [label]="link.label"
+      [link]="link.route">
+    </app-nav-link>
+  </mat-toolbar>
+</header>

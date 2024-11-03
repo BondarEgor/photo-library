@@ -12,6 +12,7 @@
       }
     ],
     "selector-class-pattern": "^[a-z][a-z0-9-_]*$",
+    "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true,
     "scss/dollar-variable-pattern": "^([a-z][a-z0-9-]*)$"
   }
